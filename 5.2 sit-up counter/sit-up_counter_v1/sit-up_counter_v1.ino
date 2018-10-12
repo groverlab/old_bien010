@@ -5,5 +5,5 @@ void setup() {
 
 void loop() {
   Serial.println(digitalRead(7));
-  delay(100);
+  delay(10);
 }
