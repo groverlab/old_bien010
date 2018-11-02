@@ -7,7 +7,6 @@ void setup() {
 int x = 0;
 
 void loop() {
-  delay(10);
   x = digitalRead(7);
   if(x == 0) {
     Serial.println("Will is horizontal");
